@@ -378,6 +378,10 @@ footer {
         gap: var(--spacing-sm);
     }
 
+    .social-links {
+        justify-content: center;
+    }
+
     .strengths-grid {
         grid-template-columns: 1fr;
     }
