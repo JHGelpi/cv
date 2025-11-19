@@ -385,4 +385,8 @@ footer {
     .two-column {
         grid-template-columns: 1fr;
     }
+
+    .toc ul {
+        grid-template-columns: 1fr;
+    }
 }
