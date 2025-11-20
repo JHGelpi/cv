@@ -28,6 +28,10 @@ npx serve
 
 Configured for GitHub Pages. Push to `main` branch and enable Pages in repository settings pointing to root directory.
 
+## Repository management
+
+- Suggest commit summary comment when making changes to accompany the merge
+
 ## Styling Conventions
 
 - CSS custom properties defined in `:root` for colors and spacing
