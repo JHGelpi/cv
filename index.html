@@ -43,17 +43,6 @@
                 <p>Engineering leader with two decades of experience guiding global data, analytics, and cloud compute teams of up to 75. Known as a team-first leader who invests deeply in people and culture, with a proven record of securing multi-million-dollar investments, driving enterprise-wide platform modernization, and delivering patented innovations that unlock significant revenue and create strategic advantage.</p>
             </section>
 
-            <nav class="toc">
-                <ul>
-                    <li><a href="#key-strengths">Key Strengths</a></li>
-                    <li><a href="#professional-experience">Professional Experience</a></li>
-                    <li><a href="#philanthropy">Philanthropy</a></li>
-                    <li><a href="#technical-tools">Technical Tools & Platforms</a></li>
-                    <li><a href="#speaking">Speaking & Public Engagements</a></li>
-                    <li><a href="#patents-education">Patents & Education</a></li>
-                </ul>
-            </nav>
-
             <section class="section" id="key-strengths">
                 <h2>Key Strengths</h2>
                 <div class="skills">
@@ -68,7 +57,15 @@
                 </div>
             </section>
 
-            <section class="section" id="professional-experience">
+            <nav class="tabs">
+                <button class="tab-button active" data-tab="professional-experience">Professional Experience</button>
+                <button class="tab-button" data-tab="philanthropy">Philanthropy</button>
+                <button class="tab-button" data-tab="technical-tools">Technical Tools & Platforms</button>
+                <button class="tab-button" data-tab="speaking">Speaking & Public Engagement</button>
+                <button class="tab-button" data-tab="patents-education">Patents & Education</button>
+            </nav>
+
+            <section class="tab-content active" id="professional-experience">
                 <h2>Professional Experience</h2>
 
                 <article class="job">
@@ -156,8 +153,7 @@
                     </ul>
                 </article>
 
-            <section class="section" id="additional-experience">
-                <h2>Additional Experience</h2>
+                <h3 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--color-primary);">Additional Experience</h3>
 
                 <article class="job">
                     <div class="job-header">
@@ -184,7 +180,7 @@
                 </article>
             </section>
 
-            <section class="section" id="philanthropy">
+            <section class="tab-content" id="philanthropy">
                 <h2>Philanthropy</h2>
 
                 <article class="job">
@@ -204,21 +200,75 @@
                 </article>
             </section>
 
-            <section class="section" id="technical-tools">
+            <section class="tab-content" id="technical-tools">
                 <h2>Technical Tools & Platforms</h2>
-                <div class="skills">
-                    <span class="skill">GCP</span>
-                    <span class="skill">AWS</span>
-                    <span class="skill">Azure</span>
-                    <span class="skill">Terraform</span>
-                    <span class="skill">Postgres</span>
-                    <span class="skill">Docker</span>
-                    <span class="skill">Python</span>
-                    <span class="skill">Kubernetes</span>
+
+                <div class="tech-category">
+                    <h3>Cloud Platforms & Infrastructure</h3>
+                    <div class="skills">
+                        <span class="skill">AWS</span>
+                        <span class="skill">Azure</span>
+                        <span class="skill">GCP</span>
+                        <span class="skill">OpenShift</span>
+                        <span class="skill">Terraform</span>
+                    </div>
+                    <p class="tech-description">Architected and directed multi-cloud compute platforms across AWS, Azure, GCP, and OpenShift at SAS Institute, and built enterprise data platforms on AWS at Red Hat and Fitch Group.</p>
+                </div>
+
+                <div class="tech-category">
+                    <h3>Data Engineering & Analytics</h3>
+                    <div class="skills">
+                        <span class="skill">Tableau</span>
+                        <span class="skill">SAS Visual Analytics</span>
+                        <span class="skill">Domino Data Labs</span>
+                        <span class="skill">Starburst</span>
+                        <span class="skill">Redshift</span>
+                        <span class="skill">S3</span>
+                        <span class="skill">Glue</span>
+                        <span class="skill">Kafka</span>
+                    </div>
+                    <p class="tech-description">Scaled Tableau to 5,000+ active users at Red Hat, architected data lakes and Lambda architectures using S3, Glue, Redshift, and Kafka at Fitch Group, secured enterprise agreement for Starburst, and deployed Domino Data Labs platform for 50+ data scientists.</p>
+                </div>
+
+                <div class="tech-category">
+                    <h3>Databases & Storage</h3>
+                    <div class="skills">
+                        <span class="skill">Postgres</span>
+                        <span class="skill">Redshift</span>
+                        <span class="skill">Oracle</span>
+                    </div>
+                    <p class="tech-description">Led Oracle BI implementation and system re-architecture at Family Dollar, architected HR data warehouse modernization using materialized SQL views at Red Hat, and built data warehousing solutions on Redshift and Postgres.</p>
+                </div>
+
+                <div class="tech-category">
+                    <h3>Container Orchestration & DevOps</h3>
+                    <div class="skills">
+                        <span class="skill">Kubernetes</span>
+                        <span class="skill">Docker</span>
+                    </div>
+                    <p class="tech-description">Directed core Kubernetes-based compute platform for SAS Viya ecosystem, securing a patent for novel method of predictive Kubernetes node sizing, and containerized applications using Docker across multi-cloud environments.</p>
+                </div>
+
+                <div class="tech-category">
+                    <h3>Programming & Scripting</h3>
+                    <div class="skills">
+                        <span class="skill">Python</span>
+                        <span class="skill">SQL</span>
+                    </div>
+                    <p class="tech-description">Leveraged Python for data engineering, automation, and analytics workflows, and extensively used SQL for data warehouse development, query optimization, and building scalable data layers across multiple database platforms.</p>
+                </div>
+
+                <div class="tech-category">
+                    <h3>Data Science & ML</h3>
+                    <div class="skills">
+                        <span class="skill">Random Forest</span>
+                        <span class="skill">Regression Analysis</span>
+                    </div>
+                    <p class="tech-description">Delivered predictive models for employee turnover using random forest algorithms and performed regression analysis for sentiment analysis at Red Hat, informing global talent strategy across North America, Europe, and Asia.</p>
                 </div>
             </section>
 
-            <section class="section" id="speaking">
+            <section class="tab-content" id="speaking">
                 <h2>Speaking & Public Engagements</h2>
                 <ul class="engagements">
                     <li><strong>SAS Innovate (2024)</strong> - Mainstage and Super Demo highlighting new technology</li>
@@ -230,7 +280,7 @@
                 </ul>
             </section>
 
-            <section class="section" id="patents-education">
+            <section class="tab-content" id="patents-education">
                 <h2>Patents & Education</h2>
                 <div class="two-column">
                     <div>
