@@ -13,6 +13,7 @@ Engineering leader with two decades of experience guiding global data, analytics
 | Technology Strategy | Organization Design & Development |  |
 
 ## Professional Experience
+
 | :---- | :---- |
 | Jan 2026 \- Curr | Director, R\&D, Orchestration *SAS Insititute, Cary, NC* Lead a global R&D organization responsible for the development and support of SAS Orchestration products (Workload Management, Job Execution Service, Workflow Manager, Process Orchestration, and BOSS). |
 | Dec 2021 \- Jan 2026 | Director, R\&D, Cloud Compute *SAS Institute, Cary, NC* Lead a 75-person global R\&D organization of software engineers and managers across North America, Europe, and Asia. Established a "leader of leaders" structure with 7 direct-reporting managers. Drove a strategic compute engine rewrite that enabled legacy SAS code to run on the modern Viya platform, unlocked millions in customer migration revenue, and secured a patent for a novel method of predictive Kubernetes node sizing. Transformed the division's operational model, shifting engineering capacity from reactive maintenance to strategic product initiatives (from 5% to 40% of team time) by consistently reducing bug counts and improving Mean Time to Resolution (MTTR). Directed the core multi-cloud compute platform for the SAS Viya ecosystem, collaborating with Product and Security leaders to deliver a consistent, secure, and performant engine across AWS, Azure, GCP, and OpenShift. |
