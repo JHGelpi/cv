@@ -32,6 +32,25 @@ body {
     padding: var(--spacing-lg);
 }
 
+/* Moved notice */
+.moved-notice {
+    background-color: var(--color-primary);
+    color: #fff;
+    text-align: center;
+    padding: var(--spacing-sm) var(--spacing-md);
+    font-size: 0.95rem;
+}
+
+.moved-notice a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.moved-notice a:hover {
+    text-decoration-thickness: 2px;
+}
+
 /* Header */
 .header {
     margin-bottom: var(--spacing-lg);
@@ -359,6 +378,10 @@ footer {
     a {
         color: var(--color-text);
         text-decoration: none;
+    }
+
+    .moved-notice {
+        display: none;
     }
 
     .skill {
